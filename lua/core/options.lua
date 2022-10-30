@@ -75,6 +75,7 @@ set hid
 set synmaxcol=450
 set lazyredraw
 syntax sync minlines=28
+au BufEnter *.tsx :set ft=javascriptreact
 ]]
 
 g.nvchad_theme = config.ui.theme
