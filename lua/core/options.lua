@@ -11,7 +11,9 @@ if g.vim_version < 8 then
   g.did_load_filetypes = 0
   g.do_filetype_lua = 1
 end
+
 vim.cmd[[
+
 "Auto closing </> tags
 set relativenumber
 let g:closetag_filenames = '*.html,*.xhtml,*.phtml,*.js,*.jsx,*.tsx'
@@ -57,7 +59,6 @@ set re=1
 set timeout ttimeout         " separate mapping and keycode timeouts
 set timeoutlen=125           " mapping timeout 250ms  (adjust for preference)
 set ttimeoutlen=0           " keycode timeout 20ms
-let g:coc_global_extensions = [ 'coc-html', 'coc-prettier']  " list of CoC extensions needed
 set fileencodings=utf-8
 :match Error /{\|}\|[\|]\|${\|==\|===\|!\|||\|!=\|&&/
 :match Error /current\|styled\|style/

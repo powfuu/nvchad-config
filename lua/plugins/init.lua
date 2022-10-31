@@ -1,5 +1,5 @@
 local plugins = {
-
+    ["williamboman/nvim-lsp-installer"]={},
   ["hail2u/vim-css3-syntax"]={},
    ["peitalin/vim-jsx-typescript"]= { },
   ["pangloss/vim-javascript"] = { },
@@ -150,7 +150,7 @@ local plugins = {
   },
 
   ["saadparwaiz1/cmp_luasnip"] = { after = "LuaSnip" },
-  ["hrsh7th/cmp-nvim-lua"] = { after = "cmp_luasnip" },
+  ["hrsh7th/cmp-nvim-lua"] = { after = "nvim-cmp" },
   ["hrsh7th/cmp-nvim-lsp"] = { after = "cmp-nvim-lua" },
   ["hrsh7th/cmp-buffer"] = { after = "cmp-nvim-lsp" },
   ["hrsh7th/cmp-path"] = { after = "cmp-buffer" },
