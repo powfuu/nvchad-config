@@ -89,11 +89,11 @@ local options = {
     }),
   },
   sources = {
-    { name = "luasnip" },
-    { name = "nvim_lsp" },
-    { name = "buffer" },
-    { name = "nvim_lua" },
-    { name = "path" },
+    { name = "luasnip", max_item_count = 6 },
+    { name = "nvim_lsp", max_item_count = 6 },
+    { name = "buffer", max_item_count = 6 },
+    { name = "nvim_lua", max_item_count = 6 },
+    { name = "path", max_item_count = 6 }
   },
 }
 
